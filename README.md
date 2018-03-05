@@ -46,4 +46,7 @@ DeepForge — удобная среда разработки для работы
 Полезные ссылки:
 http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
 
+---
+http://propelml.org/
+
 
