@@ -49,4 +49,7 @@ http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
 ---
 http://propelml.org/
 
+---
+https://github.com/trekhleb/nano-neuron/blob/master/README.ru-RU.md
+
 
