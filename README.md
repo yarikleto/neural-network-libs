@@ -1,55 +1,51 @@
 # Javascript Neural Network Libraries
 
-Brain — это библиотека, которая позволяет легко создавать нейронные сети, а затем обучать их на основе входных / выходных данных. Поскольку обучение потребляет множество ресурсов, предпочтительнее запускать библиотеку в среде Node.js, хотя версию браузера CDN также можно загрузить непосредственно на веб-страницу. На их сайте есть крошечное demo , которое можно обучить распознаванию цветового контраста.
+**BrainJS** is a library that makes it easy to create neural networks and then train them based on input/output data. Since training consumes a lot of resources, it is preferable to run the library in a Node.js environment, although the CDN browser version can also be downloaded directly to the web page. There is a tiny demo on their site that can be trained to detect color contrast.
 - https://github.com/BrainJS/brain.js
 ---
 
-Образовательное веб-приложение, которое позволяет поиграть с нейронными сетями и изучить их различные компоненты. Оно имеет приятный интерфейс, который позволяет контролировать входные данные, количество нейронов, выбирать алгоритм и другие показатели, которые будут отражены в конечном результате. Кроме того, есть много другой полезной информации: приложение имеет открытый исходный код и использует специальную библиотеку машинного обучения, написанную на языке TypeScript. Плюсом служит и то что она имеет хорошую документацию.
+An educational web application that lets you play with neural networks and explore their various components. It has a nice interface that allows you to control the input data, the number of neurons, choose the algorithm, and other indicators that will be reflected in the final result. In addition, there is a lot of other useful information: the application is open source and uses a special machine learning library written in the TypeScript language. The fact that it has good documentation also serves as a plus.
 - https://github.com/tensorflow/playground
 ---
 
-FlappyLearning — это проект JavaScript, который содержит примерно 800 строк кода, позволяет создать библиотеку машинного обучения и реализовать ее в веселой форме, которая учит играть в Flappy Bird , как виртуоз. Методика искусственного интеллекта, используемая в этой библиотеке, называется [Neuroevolution](http://www.scholarpedia.org/article/Neuroevolution) и применяет алгоритмы, основанные на нервных системах, обнаруженных в природе, динамически обучающихся от успеха или неудачи каждой итерации. Демонстрационный пример очень прост в запуске — просто откройте index.html в браузере.
+**FlappyLearning** is a JavaScript project that contains about 800 lines of code, allows you to create a machine learning library and implement it in a fun way that teaches you to play Flappy Bird , like a virtuoso. The artificial intelligence technique used in this library is called [Neuroevolution](http://www.scholarpedia.org/article/Neuroevolution) and applies algorithms based on nervous systems found in nature, dynamically learning from the success or failure of each iteration. The demo is very easy to run - just open index.html in your browser.
 - https://github.com/xviniette/FlappyLearning
 ---
 
-Вероятно, самый активно поддерживаемый проект в этом списке, Synaptic — это Node.js и библиотека браузера, которая не зависит от архитектуры, что позволяет разработчикам создавать любые нейронные сети. Он имеет несколько встроенных архитектур, что позволяет быстро тестировать и сравнивать различные алгоритмы машинного обучения. Помимо этого, Synaptic — это хорошо написанное введение в нейронные сети, ряд практических демонстраций и множество других замечательных обучающих программ, которые раскрывают работу машинного обучения.
+Probably the most actively supported project on this list, Synaptic is a Node.js and browser library that is architecture-independent, allowing developers to build any kind of neural network. It has several built-in architectures, which allows you to quickly test and compare different machine learning algorithms. In addition, Synaptic is a well-written introduction to neural networks, a number of hands-on demonstrations, and many other great tutorials that expose how machine learning works.
 - https://github.com/cazala/synaptic
 ---
 
-Land Lines — интересный веб-эксперимент Chrome, который находит спутниковые снимки Земли, похожие на каракули, сделанные пользователем. Приложение не выполняет серверных вызовов: оно работает полностью в браузере и благодаря умному использованию машинного обучения и WebGL имеет отличную производительность даже на мобильных устройствах. Вы можете проверить исходный код на GitHub или ознакомиться с полным исследованием [здесь](https://developers.google.com/web/showcase/2016/land-lines).
+**Land Lines** is an interesting Chrome web experiment that finds satellite images of the Earth that look like doodles made by the user. The app makes no server calls: it runs entirely in the browser and has excellent performance, even on mobile devices, thanks to its clever use of machine learning and WebGL. You can check out the source code on GitHub or read the full study [here](https://developers.google.com/web/showcase/2016/land-lines).
 - https://lines.chromeexperiments.com/
 ---
 
-Хотя он больше не поддерживается активно, ConvNetJS является одной из самых продвинутых библиотек глубинного обучения для JavaScript. Первоначально разработанный в Стэнфордском университете, ConvNetJS стал довольно популярным в GitHub, в результате чего появилось множество функций и обучающих руководств. Он работает непосредственно в браузере, поддерживает несколько методов обучения и довольно низкоуровневый, что делает его подходящим для людей с большим опытом работы в нейронных сетях.
+Although it is no longer actively supported, ConvNetJS is one of the most advanced deep learning libraries for JavaScript. Originally developed at Stanford University, ConvNetJS has become quite popular on GitHub, resulting in many features and tutorials. It runs directly in the browser, supports multiple learning methods, and is fairly low-level, making it suitable for people with a lot of neural networking experience.
 - https://github.com/karpathy/convnetjs
 ---
 
-Thing Translator — это веб-эксперимент, который позволит вашему телефону распознать реальные объекты и назвать их на разных языках. Приложение создано полностью с помощью веб-технологий и использует два API машинного обучения: от Google — Cloud Vision для распознавания образов и Translate API для перевода на естественный язык.
+**Thing Translator** is a web experiment that allows your phone to recognize real objects and name them in different languages. The app is built entirely with web technologies and uses two machine learning APIs: from Google - Cloud Vision for pattern recognition and Translate API for natural language translation.
 - https://github.com/dmotz/thing-translator
 ---
 
-Фреймворк для создания искусственного интеллекта, основанный на обучении с закреплением. К сожалению, проект с открытым исходным кодом не имеет надлежащей документации, но в одной из демонстраций, эксперименте с автопилотом в автомобиле, есть отличное описание различных частей, составляющих нейронную сеть. Библиотека написана на чистом JavaScript и сделана с использованием современных инструментов, таких как webpack и babel.
+A framework for creating artificial intelligence based on reinforcement learning. Unfortunately, the open-source project does not have proper documentation, but one of the demonstrations, an experiment with autopilot in a car, has an excellent description of the different parts that make up the neural network. The library is written in pure JavaScript and made using modern tools such as webpack and babel.
 - https://github.com/janhuenermann/neurojs
 ---
 
-Другая библиотека, которая позволяет нам настраивать и обучать нейронные сети, используя только JavaScript. Она очень проста в установке как в Node.js, так и на клиентской стороне, и имеет чистый API, который будет удобен для разработчиков любой квалификации. Библиотека предоставляет множество примеров , которые реализуют популярные алгоритмы, помогая вам понять основные принципы машинного обучения.
+Another library that allows us to configure and train neural networks using only JavaScript. It is very easy to install, both in Node.js and on the client side, and has a clean API that will be easy for developers of any skill set. The library provides many examples that implement popular algorithms to help you understand the basic principles of machine learning.
 - https://github.com/junku901/machine_learning
 ---
 
-DeepForge — удобная среда разработки для работы с глубинным обучением. Она позволяет вам проектировать нейронные сети, используя простой интерфейс, поддерживает обучающие модели на удаленных машинах и имеет встроенный контроль версий. Проект запускается в браузере и основан на Node.js и MongoDB, делая процесс установки очень знакомым большинству веб-разработчиков.
+**DeepForge** is a convenient development environment for working with deep learning. It allows you to design neural networks using a simple interface, supports training models on remote machines, and has built-in version control. The project runs in a browser and is based on Node.js and MongoDB, making the installation process very familiar to most web developers.
 - https://github.com/deepforge-dev/deepforge
 
-###### C поддержкой Keras:
+###### Supporting Keras:
 - https://github.com/deepforge-dev/deepforge-keras
 ---
 
-Полезные ссылки:
-http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
-
----
-http://propelml.org/
-
----
-https://github.com/trekhleb/nano-neuron/blob/master/README.ru-RU.md
+Useful links:
+* http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
+* http://propelml.org/
+* https://github.com/trekhleb/nano-neuron/blob/master/README.ru-RU.md
 
 
